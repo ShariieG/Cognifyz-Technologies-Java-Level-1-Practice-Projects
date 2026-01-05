@@ -1,43 +1,135 @@
-# Java Level 1 Practice Projects – Cognifyz Technologies
+# ☕✨ Java Console Practice Projects
 
-## Description
-This repository contains **Level 1 Java practice projects (Tasks 1–4)** completed with Cognifyz Technologies.  
-Projects focus on strengthening **core Java fundamentals** through hands-on console applications.
+> A collection of Java console applications developed as part of **Cognifyz Technologies programming practice**, focused on strengthening Java fundamentals, input validation, and real-world problem solving.
 
-## Projects Included
-- **Temperature Converter** – Converts temperatures between Celsius and Fahrenheit  
-- **Palindrome Checker** – Checks whether a word or phrase is a palindrome  
-- **Student Grade Calculator** – Calculates the average of multiple grades  
-- **Random Password Generator** – Generates random passwords based on user-selected criteria  
+---
 
-## Technologies Used
-- Java (JDK 8 or above)  
-- Console-based applications  
+## 📦 Project Overview
 
-## Skills Practiced
-- Java fundamentals  
-- Input/output operations  
-- Arithmetic operations  
-- String manipulation  
-- Arrays  
-- Loops and conditionals  
-- Methods and modular programming  
-- Input validation and error handling  
-- Random number generation  
+| Project | Description |
+|------|-------------|
+| 🌡️ Temperature Converter | Converts temperatures between Celsius and Fahrenheit |
+| 🔁 Palindrome Checker | Checks words and phrases for palindrome properties |
+| 📊 Student Grade Calculator | Calculates the average of student grades |
+| 🔐 Random Password Generator | Generates secure random passwords |
 
-## How to Run
-1. Clone the repository  
-2. Open the project in your preferred IDE (e.g., IntelliJ, Eclipse)  
-3. Compile the `.java` files  
-4. Run the main class for each project  
-5. Follow on-screen prompts in the console  
+---
 
-## Purpose
-To refresh Java basics, improve problem-solving skills, and practice writing clean, user-friendly console applications.
+## 🌡️ 1. Temperature Converter
 
-## Status
-Level 1 completed ✅  
-Ready to start **Level 2** projects.  
+### 📌 Description
+A console application that converts temperatures between **Celsius and Fahrenheit**, ensuring safe handling of invalid input.
 
-## Author
-SHARON GALELA
+### ✅ Features
+- Unit selection menu
+- Numeric input validation
+- Error handling using try-catch
+- Repeat conversion option
+
+### 🧠 Concepts Used
+- `Scanner`
+- Exception handling
+- Loops & conditionals
+- Methods
+
+### ⚠️ Challenges Experienced
+- Preventing crashes caused by non-numeric input  
+- Validating menu selections  
+- Managing nested loops for smooth user flow  
+
+🔗 **LinkedIn Post:**  
+https://www.linkedin.com/posts/sharon-galela-6998bb265_java-cognifyztechnologies-programmingpractice-activity-7412526202319675392-Na4X
+
+---
+
+## 🔁 2. Palindrome Checker (Word & Phrase)
+
+### 📌 Description
+Checks whether a **word or phrase** is a palindrome, ignoring spaces and letter case.
+
+### ✅ Features
+- Detects word vs phrase input
+- Removes spaces for phrase comparison
+- Case-insensitive checking
+- Displays reversed input
+
+### 🧠 Concepts Used
+- String manipulation
+- Arrays
+- Loops
+- Methods
+
+### ⚠️ Challenges Experienced
+- Handling phrases containing spaces  
+- Preserving character order after removing spaces  
+- Ensuring accurate string comparison  
+
+🔗 **LinkedIn Post:**  
+https://www.linkedin.com/posts/sharon-galela-6998bb265_java-cognifyztechnologies-programmingpractice-activity-7412558063032885248-HHYL
+
+---
+
+## 📊 3. Student Grade Calculator
+
+### 📌 Description
+A program that calculates the **average of multiple student grades** entered by the user.
+
+### ✅ Features
+- User-defined number of grades
+- Numeric input validation
+- Array-based storage
+- Repeat calculation option
+
+### 🧠 Concepts Used
+- Arrays
+- Input validation
+- Loops
+- Methods
+
+### ⚠️ Challenges Experienced
+- Validating both integer and double inputs  
+- Preventing invalid input from breaking loops  
+- Dynamically allocating arrays based on user input  
+
+🔗 **LinkedIn Post:**  
+https://www.linkedin.com/posts/sharon-galela-6998bb265_java-cognifyztechnologies-programmingpractice-activity-7412771114088648704-EEvf
+
+---
+
+## 🔐 4. Random Password Generator
+
+### 📌 Description
+Generates a random password based on **user-selected character types**.
+
+### ✅ Features
+- Custom password length
+- Character selection:
+  - Uppercase letters
+  - Lowercase letters
+  - Numbers
+  - Special characters
+- Randomized password generation
+- Repeat option
+
+### 🧠 Concepts Used
+- `Random`
+- String manipulation
+- Loops
+- User-driven logic
+
+### ⚠️ Challenges Experienced
+- Dynamically combining multiple character sets  
+- Preventing invalid random indexing  
+- Managing user selection flow without infinite loops  
+
+🔗 **LinkedIn Post:**  
+https://www.linkedin.com/posts/sharon-galela-6998bb265_java-cognifyztechnologies-programmingpractice-activity-7412855380394901504-UOon
+
+---
+
+## 🛠️ Technologies Used
+- ☕ Java
+- 📚 Java Standard Library
+- 💻 Console-based applications
+
+---
